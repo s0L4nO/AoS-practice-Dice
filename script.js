@@ -15,7 +15,7 @@ document.getElementById('clearButton').addEventListener('click', (e)=>{
     name6.value = '';
     document.querySelectorAll('.isCopied').forEach((x) => x.textContent = '');
     document.getElementById('teamRed').textContent = '';
-    document.getElementById('teamRed').textContent = '';
+    document.getElementById('teamBlack').textContent = '';
 })
 
 //copy
